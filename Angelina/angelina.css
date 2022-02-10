@@ -1,0 +1,104 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'Times New Roman', Times, serif;
+    background-image: url(https://www.crushpixel.com/big-static15/preview4/cheerful-happy-woman-enjoying-shopping-2063412.jpg)
+}
+
+.img{
+    margin: 5px;
+    padding-bottom: 5px;
+}
+.bar{
+    /*background: transparent;*/
+    height:80px;
+    width:100%;
+    display: flex;
+    position: fixed;
+    justify-content: center;
+}
+.title{
+    background: transparent;
+    width:50%;
+    color: rgb(248, 31, 16);
+    font-style: italic;
+    font-weight: bolder;
+    font-size:45px;
+    line-height:70px;
+    
+}
+.title::first-letter{
+   color: rgb(0, 0, 0);
+    font-weight:20px;
+    font-size: 65px;
+    font-style: italic;
+    
+}
+.nav{
+   background: transparent;
+    width:50%;
+    display:flex;
+    justify-content: center;
+    padding-bottom: 5px;
+    padding-top: 5px;
+   
+}
+.navitem{
+    width: 50%;
+    font-style: oblique;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 6px;
+    font-size: 24px;
+    font-weight:bolder;
+    border:0 solid rgb(255, 255, 255);
+    cursor: pointer;
+    border-radius: 100px;
+    text-align: center;
+}   
+    
+.navy{
+   text-decoration: none;
+   text-align: center;
+   color: white;
+   box-shadow: 0 10px 60px 0 rgb(16, 171, 209) inset,0 10px 60px 0 rgb(16, 171, 209);
+}   
+
+.navitem:hover{
+    box-shadow: 0 10px 60px 0 white inset,0 10px 60px 0 white;
+    color:rgb(0, 0, 0);
+    border: 2px solid white;
+}
+.quote{
+    padding-top: 280px;
+    padding-left: 850px;
+    display: flex;
+    /*justify-content: center;*/
+    font-weight: 500px;
+}
+.border{
+    color: rgb(247, 241, 167);
+    padding: 50px;
+    font-style: italic;
+    font-size:xx-large;
+    border: 0 solid rgb(0, 0, 0);
+    font-weight: bolder;
+    border-radius: 100px;
+    box-shadow:0 10px 60px 0 rgb(223, 40, 177)inset ,  0 10px 60px 0 rgb(223, 40, 177);
+}
+.border:hover{
+    box-shadow:0 10px 60px 0 rgb(223, 40, 177)inset,0 10px 60px 0 rgb(223, 40, 177) ;
+    border: 3px solid rgb(255, 255, 255);
+    cursor: pointer;
+}
+.shopnavy{
+    text-decoration: none;
+    background: transparent;
+    color: rgb(247, 241, 176);
+}
+.shopnavy:hover{
+    color: white;
+}
+
+   
